@@ -1,14 +1,51 @@
+# Luau
 # A fast, small, safe, gradually typed embeddable scripting language derived from Lua
-#
 # https://github.com/luau-lang/luau
 # https://luau.org/
 
+# Build artifacts
+build/
+out/
+*.luac
+*.out
+
 # Code coverage
 coverage.out
+coverage/
+*.coverage
 
 # Profiling
 profile.out
 profile.svg
+*.prof
 
-# Time trace
+# Tracing / Timeline
 trace.json
+trace.*.json
+
+# Logs
+*.log
+logs/
+
+# Environment & dependencies
+.env
+.env.*
+node_modules/
+vendor/
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
